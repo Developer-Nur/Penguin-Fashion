@@ -1,12 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,400;0,500;0,900;1,700&display=swap"
+        rel="stylesheet">
     <title>Penguin Fashion</title>
+    <script src="https://kit.fontawesome.com/4e3b307912.js" crossorigin="anonymous"></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .font-Bebas {
+            font-family: 'Bebas Neue', sans-serif;
+        }
+
+        .font-roboto {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        /* Primary color #FABE4C */
+        /* Secondary color #A4BC46*/
+        /* Assets color #3f3f46 */
+    </style>
 </head>
+
 <body>
-    
+    <!-- Header area starts -->
+    <header class="px-40 mx-auto bg-[#FEF3C7] py-5 h-screen">
+        <div class="flex justify-between items-center  py-8">
+            <div class="w-1/2">
+                <img class="w-60" src="./Images/icons/logo.png" alt="Logo">
+            </div>
+            <nav class="w-1/2 flex justify-around font-roboto  text-lg text-[#1e293b]">
+                <a class="text-[#A4BC46]" href="">Home</a>
+                <a href="">About</a>
+                <a href="">Contact</a>
+                <a href="">Blog</a>
+                <a href="">Services</a>
+            </nav>
+        </div>
+
+        <!-- Banner section -->
+        <div class="flex justify-between items-center">
+            <div>
+                <h1 class="font-Bebas text-7xl font-extrabold pb-2 leading-tight"> <span class="text-[#FABE4C]">BE THE PENGUINS</span> <br>OF WINTER</h1>
+                <p class="text-[#3f3f46] text-lg pb-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <button class="bg-gradient-to-l from-[#A4BC46] to-[#85A019] font-medium py-3 px-7 uppercase text-lg text-white rounded-lg mt-4"><i class="fa-solid fa-cart-shopping"></i> buy now</button>
+            </div>
+            <div class="mt-5">
+                <img class="w-full" src="./Images/model.png" alt="Banner Image">
+            </div>
+        </div>
+    </header>
+
+    <!-- Content area starts with two different sections, Product and service. -->
+    <main class="max-w-7xl mx-auto">
+       
+    </main>
+
+    <!-- Footer area starts -->
+    <footer>
+
+    </footer>
 </body>
+
 </html>
